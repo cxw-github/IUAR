@@ -64,7 +64,7 @@ foreach(test_name ${tests})
 endforeach()
 
 # run arbitrary commands
-set(test_cmdss
+set(test_cmds
 	hello
 	hrt_test
 	vcdev_test
