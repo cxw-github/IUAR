@@ -31,12 +31,12 @@ set(config_module_list
 	#drivers/mb12xx
 	#drivers/mkblctrl
 	drivers/imu/mpu6000
-	drivers/imu/mpu9250
+	#drivers/imu/mpu9250
 	#drivers/oreoled
 	#drivers/protocol_splitter
 	drivers/pwm_input
 	#drivers/pwm_out_sim
-	drivers/px4flow
+	#drivers/px4flow
 	drivers/px4fmu
 	drivers/px4io
 	drivers/rgbled
@@ -47,13 +47,13 @@ set(config_module_list
 	drivers/vmount
 
 	# distance sensors
-	drivers/distance_sensor/ll40ls
+	#drivers/distance_sensor/ll40ls
 	#drivers/distance_sensor/mb12xx
-	drivers/distance_sensor/sf0x
-	drivers/distance_sensor/sf1xx
-	drivers/distance_sensor/srf02
-	drivers/distance_sensor/teraranger
-	drivers/distance_sensor/tfmini
+	#drivers/distance_sensor/sf0x
+	#drivers/distance_sensor/sf1xx
+	#drivers/distance_sensor/srf02
+	#drivers/distance_sensor/teraranger
+	#drivers/distance_sensor/tfmini
 	#drivers/distance_sensor/ulanding
 	modules/sensors
 

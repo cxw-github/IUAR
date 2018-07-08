@@ -57,7 +57,7 @@ endif
 # in that directory with the target upload.
 
 #  explicity set default build target
-all: posix_sitl_default
+all: px4fmu-v2_default 
 
 # Parsing
 # --------------------------------------------------------------------
