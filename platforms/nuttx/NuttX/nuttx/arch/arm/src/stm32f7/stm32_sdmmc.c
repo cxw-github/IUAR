@@ -1920,11 +1920,8 @@ static void stm32_clock(FAR struct sdio_dev_s *dev, enum sdio_clock_e rate)
             break;
           }
 
-<<<<<<< HEAD
-=======
       /* FALLTHROUGH */
 
->>>>>>> 1009341d3ca89b030ba7cb5071f409be5b670393
       /* SD normal operation clocking (narrow 1-bit mode) */
 
       case CLOCK_SD_TRANSFER_1BIT:
